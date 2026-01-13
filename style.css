@@ -101,7 +101,7 @@ body {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     margin-bottom: 1rem;
     
 }
@@ -111,9 +111,8 @@ body {
     margin: 0 auto 2rem;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    animation: float 3s ease-in-out infinite;
+  
+   
 }
 
 .profile-image img {
@@ -123,18 +122,10 @@ body {
     display: block;
 }
 
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
 
 
 .highlight {
-    color: #fbbf24;
+    color: #ffffff;
 }
 
 .hero-subtitle {
@@ -144,7 +135,7 @@ body {
 }
 
 .hero-description {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin-bottom: 2rem;
     opacity: 0.8;
 }
@@ -171,6 +162,7 @@ body {
 .about {
     padding: 5rem 0;
     background: var(--light-bg);
+     height: 100vh;
 }
 
 .section-title {
