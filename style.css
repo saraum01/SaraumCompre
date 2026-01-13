@@ -85,17 +85,19 @@ body {
 }
 
 .hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: var(--white);
-    padding-top: 80px;
+    background-image: url('./images/profile.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    color: white; 
 }
+
 
 .hero-content {
     text-align: center;
-    animation: fadeInUp 1s ease;
+ 
 }
 
 .hero-title {
